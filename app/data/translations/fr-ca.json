@@ -1,0 +1,27 @@
+{
+	"disclaimer": "AVIS : Ce message (y compris toute pièce jointe) émanant de iFIT Inc. est susceptible de constituer une communication privilégiée entre avocat et client et peut contenir des informations PRIVILÉGIÉES et CONFIDENTIELLES et/ou relevant du SECRET PROFESSIONNEL DE L'AVOCAT. Si vous n'êtes pas le destinataire visé, vous êtes par la présente informé que toute diffusion de ce message est strictement interdite. Si vous avez reçu ce message par erreur, veuillez ne pas le lire, le copier ou le transférer. Nous vous prions de supprimer définitivement toutes les copies ainsi que les pièces jointes, et d'en informer immédiatement l'expéditeur. Dans le cadre de nos efforts en faveur de l'environnement, nous vous invitons à penser à la planète avant d'imprimer ce courriel.",
+	"messages": [
+		{
+			"heading": "Générateur de signature d’e-mail",
+			"name": "Quel est votre prénom et votre nom de famille?",
+			"job": "Quel est votre titre de poste?",
+			"office": "Souhaitez-vous inclure le numéro de téléphone de votre bureau?",
+			"officePhone": "Quel est le numéro de téléphone de votre bureau? (c.-à-d. +1 438.555.7700)",
+			"mobile": "Souhaitez-vous inclure votre numéro de téléphone mobile?",
+			"mobilePhone": "Quel est votre numéro de téléphone portable ? (c.-à-d. +1 367.555.1417)",
+			"copy": "Copier la version dans le presse-papiers",
+			"toggle": "Fond blanc ?",
+			"howTo": "Comment ajouter votre signature à votre compte Gmail :",
+			"how1": "Sélectionnez le style que vous souhaitez copier en cliquant sur le bouton.",
+			"how2": "Accédez à votre compte Gmail.",
+			"how3": "Sélectionnez l’icône d’engrenage, puis sélectionnez « Afficher tous les paramètres » dans le menu déroulant.",
+			"how4": "Faites défiler jusqu’à la section « Signatures ».",
+			"how5": "Sélectionnez « + Ajouter une signature » et entrez un nom pour votre nouvelle signature.",
+			"how6": "Collez votre signature dans la boîte (control-v pour Windows, command-v pour MacOS, ou faites un clic droit et utilisez « Coller » dans le menu).",
+			"how7": "Modifiez vos préférences de signature pour utiliser votre nouvelle signature sur vos e-mails.",
+			"how8": "Faites défiler jusqu’au bas de la page Paramètres et sélectionnez « Enregistrer ».",
+			"how9": "Si vous avez besoin de plus d’aide,",
+			"how10": "s’il vous plaît regarder cette vidéo"
+		}
+	]
+}

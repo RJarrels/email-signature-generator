@@ -1,0 +1,28 @@
+{
+	
+	"disclaimer": "HINWEIS: Diese Nachricht (einschließlich etwaiger Anhänge) von iFIT Inc. kann eine Kommunikation zwischen Anwalt und Mandant darstellen und Informationen enthalten, die dem ANWALTSGEHEIMNIS und der VERTRAULICHKEIT unterliegen und/oder ANWALTLICHE ARBEITSERGEBNISSE sind. Sollten Sie nicht der vorgesehene Empfänger sein, werden Sie hiermit darauf hingewiesen, dass jegliche Weitergabe dieser Nachricht strengstens untersagt ist. Falls Sie diese Nachricht irrtümlich erhalten haben, lesen, kopieren oder leiten Sie diese bitte nicht weiter. Bitte löschen Sie alle Kopien sowie etwaige Anhänge dauerhaft und benachrichtigen Sie den Absender unverzüglich. Im Rahmen unserer Umweltschutzbemühungen bitten wir Sie, der Umwelt zuliebe auf das Ausdrucken dieser E-Mail zu verzichten.",
+	"messages": [
+		{
+			"heading": "E-Mail-Signatur-Generator",
+			"name": "Wie lautet Ihr Vor- und Nachname?",
+			"job": "Wie lautet Ihre Berufsbezeichnung?",
+			"office": "Möchten Sie Ihre Bürotelefonnummer miterstellen?",
+			"officePhone": "Wie lautet Ihre Bürotelefonnummer? (d.h. +49 089.4321.1234)",
+			"mobile": "Möchten Sie Ihre Handynummer miterzählen?",
+			"mobilePhone": "Wie lautet Ihre Handynummer? (d.h. +49 0176.7654321)",
+			"copy": "Kopieren Sie die Version in die Zwischenablage",
+			"toggle": "Weißer Hintergrund?",
+			"howTo": "So fügen Sie Ihrem Google Mail-Konto Ihre Signatur hinzu:",
+			"how1": "Wählen Sie durch Klicken auf die Schaltfläche aus, welchen Stil Sie kopieren möchten.",
+			"how2": "Greifen Sie auf Ihr Google Mail-Konto zu.",
+			"how3": "Wählen Sie das Zahnradsymbol und dann \"Alle Einstellungen anzeigen\" aus dem Dropdown-Menü.",
+			"how4": "Scrollen Sie nach unten zum Abschnitt \"Signaturen\".",
+			"how5": "Wählen Sie \"+ Signatur hinzufügen\" und geben Sie einen Namen für Ihre neue Signatur ein.",
+			"how6": "Fügen Sie Ihre Signatur in das Feld ein (control-v für Windows, command-v für MacOS oder Klicken Sie mit der rechten Maustaste und verwenden Sie \"Einfügen\" aus dem Menü).",
+			"how7": "Ändern Sie Ihre Signatureinstellungen, um Ihre neue Signatur in Ihren E-Mails zu verwenden.",
+			"how8": "Scrollen Sie zum Ende der Einstellungsseite und wählen Sie \"Speichern\".",
+			"how9": "Wenn Sie weitere Hilfe benötigen,",
+			"how10": "Bitte sehen Sie sich dieses Video an"
+		}
+	]
+}

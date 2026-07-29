@@ -3,24 +3,230 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #010717;
 }
 
 body {
+  margin: 0;
+  font-size: 1em;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+label {
+  display: block;
+  font-size: 1em;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+input {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 1em;
+}
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+}
+input[type="text"]:focus-visible,
+input[type="tel"]:focus-visible {
+  outline-style: none;
+  border-bottom: 2px solid #0069d2;
+}
+h1,
+h2,
+h3 {
+  color: #010717;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 2rem);
+  z-index: 10;
+  height: 57px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  padding: 0px 1rem;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.12);
+}
+#language {
+  font-size: 16px;
+  border: 0;
+  border-bottom: 1px solid #010717;
+  padding: 5px 0;
+}
+#language:hover {
+  border-color: #0fa3ff;
+  cursor: pointer;
+}
+main {
+  background: #f4f5f7;
+  padding: 64px 1em;
+  transition: all 0.5s ease-in-out;
+}
+.title,
+#genForm {
+  min-width: calc(320px - 1rem);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #6e7071;
+}
+.title {
+  margin-bottom: 20px;
+  color: #171717;
+}
+.form-entry {
+  margin: 2rem 0;
+}
+.form-entry.active label {
+  color: #0069d2;
+}
+.button-switch button {
+  margin: 0;
+  padding: 0.5rem;
+  border: 1px solid rgba(21, 21, 21, 0.12);
+  width: 60px;
+  cursor: pointer;
+  border-radius: 0;
+  color: rgba(21, 21, 21, 0.6);
+  font-size: 1rem;
+}
+.button-switch button:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+.button-switch button:last-child {
+  border-radius: 0 1rem 1rem 0;
+}
+.button-switch button.active {
+  background: #14a3fb;
+  color: #fff;
+}
+.optional {
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 1rem;
+  height: 0;
+}
+.optional-phone-mobile {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+}
+.gutter {
+  width: 1rem;
+}
+.step-final {
+  max-width: 932px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.preview-section {
+  border-top: 1px solid rgba(21, 21, 21, 0.21);
+  padding-top: 50px;
+}
+.button-ugly,
+.copy-button {
+  background: rgba(46, 49, 52, 0.3);
+  width: 100%;
+  margin: 10px auto 40px;
+  border-radius: 1rem;
+  padding: 18px 10px;
+  font-size: 0.875rem;
+  border: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button-ugly:hover,
+.copy-button:hover {
+  color: #fff;
+}
+@media screen and (min-width: 1580px) {
+  .preview-section:first-child {
+    border-top: 0;
+  }
+}
+/* Simple toggle switch styling */
+.toggleBg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 18px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #14a3fb;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #14a3fb;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }

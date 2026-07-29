@@ -1,0 +1,27 @@
+{
+	"disclaimer": "NOTICE: This message (including any attachments) from iFIT Inc. may constitute an attorney-client communication and may contain information that is PRIVILEGED and CONFIDENTIAL and/or ATTORNEY WORK PRODUCT. If you are not an intended recipient, you are hereby notified that any dissemination of this message is strictly prohibited. If you have received this message in error, please do not read, copy, or forward this message. Please permanently delete all copies and any attachments and notify the sender immediately. As part of our environmental efforts, please consider the environment before printing this email.",
+	"messages": [
+		{
+			"heading": "Email Signature Generator",
+			"name": "What is your first and last name?",
+			"job": "What is your job title?",
+			"office": "Would you like to include your office phone number?",
+			"officePhone": "What is your office phone number? (i.e., +44 020.5555.8811)",
+			"mobile": "Would you like to include your mobile phone number?",
+			"mobilePhone": "What is your mobile phone number? (i.e., 0113.234.9807)",
+			"copy": "Copy version to clipboard",
+			"toggle": "White Background?",
+			"howTo": "How to add your signature to your Gmail account:",
+			"how1": "Select which style you'd like to copy by clicking the button.",
+			"how2": "Access your Gmail account.",
+			"how3": "Select the gear icon, then select \"View all settings\" from the drop-down menu.",
+			"how4": "Scroll down to the \"Signatures\" section.",
+			"how5": "Select \"+ Add Signature\" and enter a name for your new signature.",
+			"how6": "Paste your signature into the box (control-v for Windows, command-v for MacOS, or right click and use \"Paste\" from the menu).",
+			"how7": "Change your signature preferences to use your new signature on your emails.",
+			"how8": "Scroll to the bottom of the Settings page and select \"Save.\"",
+			"how9": "If you need more help,",
+			"how10": "please watch this video"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"disclaimer": "AVISO: Este mensaje (incluyendo cualquier archivo adjunto) de iFIT Inc. puede constituir una comunicación entre abogado y cliente y puede contener información PRIVILEGIADA y CONFIDENCIAL y/o constituir PRODUCTO DEL TRABAJO DEL ABOGADO. Si usted no es el destinatario previsto, por la presente se le notifica que cualquier difusión de este mensaje está estrictamente prohibida. Si ha recibido este mensaje por error, por favor no lo lea, copie ni reenvíe. Por favor, elimine permanentemente todas las copias y cualquier archivo adjunto, y notifique al remitente de inmediato. Como parte de nuestros esfuerzos medioambientales, por favor considere el medio ambiente antes de imprimir este correo electrónico.",
+	"messages": [
+		{
+			"heading": "Generador de firmas de correo electrónico",
+			"name": "¿Cuál es su nombre y apellido?",
+			"job": "¿Cuál es su título de trabajo?",
+			"office": "¿Le gustaría incluir el número de teléfono de su oficina?",
+			"officePhone": "¿Cuál es el número de teléfono de su oficina? (es decir, +34 901.123.321)",
+			"mobile": "¿Te gustaría incluir tu número de teléfono móvil?",
+			"mobilePhone": "¿Cuál es su número de teléfono móvil? (es decir, +34 711.123.321)",
+			"copy": "Copiar versión al portapapeles",
+			"toggle": "¿Fondo blanco?",
+			"howTo": "Cómo añadir tu firma a tu cuenta de Gmail:",
+			"how1": "Seleccione el estilo que desea copiar haciendo clic en el botón.",
+			"how2": "Accede a tu cuenta de Gmail.",
+			"how3": "Seleccione el icono de engranaje, luego seleccione \"Ver todas las configuraciones\" en el menú desplegable.",
+			"how4": "Desplácese hacia abajo hasta la sección \"Firmas\".",
+			"how5": "Seleccione \"+ Agregar firma\" e ingrese un nombre para su nueva firma.",
+			"how6": "Pegue su firma en el cuadro (control-v para Windows, command-v para MacOS, o haga clic derecho y use \"Pegar\" en el menú).",
+			"how7": "Cambie sus preferencias de firma para usar su nueva firma en sus correos electrónicos.",
+			"how8": "Desplácese hasta la parte inferior de la página Configuración y seleccione \"Guardar\".",
+			"how9": "Si necesita más ayuda,",
+			"how10": "por favor vea este video"
+		}
+	]
+}
