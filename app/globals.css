@@ -230,3 +230,25 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
+
+.message-box {
+  position: fixed;
+  left: 50%;
+  bottom: 40px;
+  z-index: 100;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  pointer-events: none;
+  background: #171717;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.message-box.visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}

@@ -1,6 +1,14 @@
-// TODO: wire this up to real UI feedback instead of console.log
+let hideTimeoutId: ReturnType<typeof setTimeout> | undefined;
+
 function showMessage(msg: string) {
-	console.log(msg);
+	const target = document.getElementById("message-box");
+	if (!target) return;
+	target.textContent = msg;
+	target.classList.add("visible");
+	if (hideTimeoutId) clearTimeout(hideTimeoutId);
+	hideTimeoutId = setTimeout(() => {
+		target.classList.remove("visible");
+	}, 2000);
 }
 
 export function copySelection(mode: string) {

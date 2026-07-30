@@ -1,4 +1,5 @@
 // LargeA.tsx
+import type { CSSProperties } from 'react';
 import { EmailSignatureProps } from '@/app/data/props/emailSignatureProps';
 import { formatPhoneNumber } from '@/app/scripts/formatNumber';
 export function LargeA({ styles, layouts, content, images }: EmailSignatureProps) {
@@ -68,7 +69,7 @@ export function LargeA({ styles, layouts, content, images }: EmailSignatureProps
             <table border={0} cellPadding={0} cellSpacing={0} width={styles.line_width}>
               <tbody>
                 <tr>
-                  <td style={{ borderTop: '1px solid grey', fontSize: 0, lineHeight: '13px' }}>&nbsp;</td>
+                  <td style={{ borderTop: '1px solid grey', fontSize: 0, lineHeight: '13px', msoLineHeightRule: 'exactly' } as CSSProperties}>&nbsp;</td>
                 </tr>
               </tbody>
             </table>

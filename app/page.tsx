@@ -41,63 +41,69 @@ export default function Home() {
 		<main>
 			<h1 className="title">{messages.heading}</h1>
 
-			<Form info={info} setInfo={setInfo} />
+			<div className="flex flex-wrap">
+				<Form info={info} setInfo={setInfo} />
 
-			<hr />
+				<div className="gutter"></div>
 
-			<section className="preview-section">
-				<div id="preview-largeA">
-					<LargeA
-						styles={dynamicStyles}
-						layouts={["largeA"]}
-						content={content}
-						images={signatureImages}
-						formatPhoneNumber={formatPhoneNumber}
-					/>
+				<div className="step-final">
+					<section className="preview-section">
+						<div id="preview-largeA">
+							<LargeA
+								styles={dynamicStyles}
+								layouts={["largeA"]}
+								content={content}
+								images={signatureImages}
+								formatPhoneNumber={formatPhoneNumber}
+							/>
+						</div>
+						<CopyButton layout="largeA" label={messages.copy} />
+					</section>
+
+					<section className="preview-section">
+						<div id="preview-largeB">
+							<LargeB
+								styles={dynamicStyles}
+								layouts={["largeB"]}
+								content={content}
+								images={signatureImages}
+								formatPhoneNumber={formatPhoneNumber}
+							/>
+						</div>
+						<CopyButton layout="largeB" label={messages.copy} />
+					</section>
+
+					<section className="preview-section">
+						<div id="preview-smallA">
+							<SmallA
+								styles={dynamicStyles}
+								layouts={["smallA"]}
+								content={content}
+								images={signatureImages}
+								formatPhoneNumber={formatPhoneNumber}
+							/>
+						</div>
+						<CopyButton layout="smallA" label={messages.copy} />
+					</section>
+
+					<section className="preview-section">
+						<div id="preview-smallB">
+							<SmallB
+								styles={dynamicStyles}
+								layouts={["smallB"]}
+								content={content}
+								images={signatureImages}
+								formatPhoneNumber={formatPhoneNumber}
+							/>
+						</div>
+						<CopyButton layout="smallB" label={messages.copy} />
+					</section>
+
+					<HowTo />
 				</div>
-				<CopyButton layout="largeA" label={messages.copy} />
-			</section>
+			</div>
 
-			<section className="preview-section">
-				<div id="preview-largeB">
-					<LargeB
-						styles={dynamicStyles}
-						layouts={["largeB"]}
-						content={content}
-						images={signatureImages}
-						formatPhoneNumber={formatPhoneNumber}
-					/>
-				</div>
-				<CopyButton layout="largeB" label={messages.copy} />
-			</section>
-
-			<section className="preview-section">
-				<div id="preview-smallA">
-					<SmallA
-						styles={dynamicStyles}
-						layouts={["smallA"]}
-						content={content}
-						images={signatureImages}
-						formatPhoneNumber={formatPhoneNumber}
-					/>
-				</div>
-				<CopyButton layout="smallA" label={messages.copy} />
-			</section>
-
-			<section className="preview-section">
-				<div id="preview-smallB">
-					<SmallB
-						styles={dynamicStyles}
-						layouts={["smallB"]}
-						content={content}
-						images={signatureImages}
-						formatPhoneNumber={formatPhoneNumber}
-					/>
-				</div>
-				<CopyButton layout="smallB" label={messages.copy} />
-			</section>
-
-			<HowTo />
+			<div id="message-box" className="message-box"></div>
 		</main>
 	);
 }

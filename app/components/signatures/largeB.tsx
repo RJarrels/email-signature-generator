@@ -1,4 +1,5 @@
 // LargeB.tsx
+import type { CSSProperties } from "react";
 import { EmailSignatureProps } from "@/app/data/props/emailSignatureProps";
 import { formatPhoneNumber } from "@/app/scripts/formatNumber";
 import { Socials } from "@/app/components/socials/socials";
@@ -54,7 +55,8 @@ export function LargeB({
 											borderTop: "1px solid grey",
 											fontSize: 0,
 											lineHeight: "13px",
-										}}
+											msoLineHeightRule: "exactly",
+										} as CSSProperties}
 									>
 										&nbsp;
 									</td>
@@ -129,7 +131,8 @@ export function LargeB({
 											borderTop: "1px solid grey",
 											fontSize: 0,
 											lineHeight: "13px",
-										}}
+											msoLineHeightRule: "exactly",
+										} as CSSProperties}
 									>
 										&nbsp;
 									</td>

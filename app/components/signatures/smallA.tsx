@@ -1,4 +1,5 @@
 // SmallA.tsx
+import type { CSSProperties } from "react";
 import { EmailSignatureProps } from "@/app/data/props/emailSignatureProps";
 import { Socials } from "@/app/components/socials/socials";
 import { socialLinks } from "@/app/data/socialData";
@@ -73,7 +74,8 @@ export function SmallA({
 												borderTop: "1px solid grey",
 												fontSize: 0,
 												lineHeight: "13px",
-											}}
+												msoLineHeightRule: "exactly",
+											} as CSSProperties}
 										>
 											&nbsp;
 										</td>
