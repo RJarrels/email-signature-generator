@@ -38,13 +38,13 @@ export function LargeB({
 							>
 								<tbody>
 									<tr>
-										<td>
+										<td style={{ paddingBottom: "14px" }}>
 											<img
 												src={images.logoLarge}
 												alt="iFIT logo"
 												width={styles.logo_width_large}
 												height={styles.logo_height_large}
-												style={{ display: "block", paddingBottom: "14px" }}
+												style={{ display: "block" }}
 											/>
 										</td>
 									</tr>

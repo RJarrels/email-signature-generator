@@ -7,8 +7,8 @@ export const styles = {
 	font_weight_subInfo: "300",
 	line_height: "143",
 	letter_spacing: "0.3px",
-	line_width: "160px",
-	arrow_size: "9px",
+	line_width: "160",
+	arrow_size: "9",
 	table_layout: "auto" as const, // Enforced strictly as auto | fixed | inherit | initial | revert | unset
 	table_width: "auto",
 	table_padding: "15px",
@@ -17,21 +17,21 @@ export const styles = {
 
 	// Specific to social icons
 	socialIcon_gap: "4px",
-	socialIcon_width: "15px",
-	socialIcon_height: "15px",
+	socialIcon_width: "15",
+	socialIcon_height: "15",
 	socialIcon_display: "block",
 
 	// Large styles
 	font_size_large: "18px",
 	font_size_subInfo_large: "12px",
-	logo_width_large: "100px",
-	logo_height_large: "27px",
+	logo_width_large: "100",
+	logo_height_large: "27",
 
 	// Small styles
 	font_size_name_small: "15px",
 	font_size_subInfo_small: "10px",
-	logo_width_small: "70px",
+	logo_width_small: "70",
 	font_size_small: "15px",
-	logo_height_small: "26px",
+	logo_height_small: "26",
 };
 
